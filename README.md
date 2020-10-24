@@ -4,7 +4,7 @@ Created at the 24th october 2020
 BIKESHARE DATA PROJECT - my first coding project
 
 ### Description
-The bikeshare data project should give an overview about the data of a biskeshare company in the citys washington, chicago and new york city.
+The bikeshare data project should give an overview about the data of a biskeshare company in the citys Washington, Chicago and New York City.
 First you need to run the bikeshare.py
 Then you get three questions:
 1. "For which city do you want to see data?"
