@@ -25,8 +25,7 @@ def get_filters():
         if not city:
             print("Sorry, I didn't catch that. Enter again: ")
     city = city.lower()
-
-    print("Thank you! You choosed " + city +" !")
+    print(‘Thank you! You choosed {} !’.format(city))
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -36,7 +35,7 @@ def get_filters():
         if not month:
             print("Sorry, I didn't catch that. Enter again: ")
     month = month.lower()
-    print("Thank you! You choosed " + month +" !")
+    print(‘Thank you! You choosed {} !’.format(month))
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("For which day of the week do you want to see data: ")
@@ -45,7 +44,7 @@ def get_filters():
         if not day:
             print("Sorry, I didn't catch that. Enter again: ")
     day = day.lower()
-    print("Thank you! You choosed " + day +" !")
+    print(‘Thank you! You choosed {} !’.format(day))
 
     print('-'*40)
     return city, month, day
